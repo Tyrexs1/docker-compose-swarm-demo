@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Web Input</title>
+</head>
+<body>
+    <h1>Kirim Pesan </h1>
+    <form method="POST">
+        <input type="text" name="message" placeholder="Tulis pesan..." required />
+        <button type="submit">Kirim</button>
+    </form>
+    {% if message %}
+        <p><strong>{{ message }}</strong></p>
+    {% endif %}
+</body>
+</html>
