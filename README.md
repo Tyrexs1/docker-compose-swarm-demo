@@ -10,16 +10,17 @@ Tujuan utama:
 ---
 
 ## 🗂 Struktur Proyek
+```bash
 secure-web-app/
 ├── app/
-│ ├── app.py
-│ └── templates/
-│ └── index.html
+│   ├── app.py
+│   └── templates/
+│       └── index.html
 ├── secrets/
-│ └── redis_password.txt
+│   └── redis_password.txt
 ├── Dockerfile
 └── docker-compose.yml
-
+```
 ---
 
 ## ⚙️ Cara Menjalankan
